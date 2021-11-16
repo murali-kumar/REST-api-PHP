@@ -1,16 +1,16 @@
 REST API FORMAT
 
 // return all records
-GET /person
+GET /users
 
 // return a specific record
-GET /person/{id}
+GET /users/{id}
 
 // create a new record
-POST /person
+POST /users
 
 // update an existing record
-PUT /person/{id}
+PUT /users/{id}
 
 // delete an existing record
-DELETE /person/{id}
+DELETE /users/{id}
